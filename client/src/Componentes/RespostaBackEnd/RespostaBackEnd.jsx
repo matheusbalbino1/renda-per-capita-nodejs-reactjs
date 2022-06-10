@@ -23,7 +23,7 @@ function RespostaBackEnd(props) {
                             <Input name={"CEP"} value={returnBackend.cep} />
                         </>
                         :
-                        <Input name={"CEP"} value={"CEP Não Encontrado"} />
+                        <Input name={"CEP"} value={"CEP não Encontrado"} />
                     }
                     
                     <Input name={"Renda-per-Capita"} value={`R$ ${returnBackend.rendaPerCapita}`} />
